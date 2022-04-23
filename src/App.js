@@ -6,12 +6,14 @@ import ServiseSection from './Components/ServiceSection/ServiseSection';
 
 function App() {
   return (
-   <>
-   <Navbar />
-    <Hero />
-    <About />
-    <ServiseSection />
-   </>
+    <>      
+      <Navbar />
+      <Hero />
+      <About />
+      <ServiseSection />
+      
+    </>
+
   );
 }
 

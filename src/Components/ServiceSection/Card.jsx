@@ -1,14 +1,15 @@
 import React from 'react'
 
 
-function Card({ icon, title, text }) {
+function Card({ icon, title, cardText, setIsOpen }) {
+
   return (
-    <article>
+    <article onClick={setIsOpen}>
         <div className='service-card-head-wrapper'>
             <h2>{title}</h2>
-            {icon}
+            <h2>{icon}</h2>
         </div>
-        <p>{text}</p>
+        <p>{cardText}</p>
     </article>
   )
 }
