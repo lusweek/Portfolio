@@ -1,8 +1,9 @@
 import { React, useEffect, useState } from 'react'
 import Card from './Card'
-import { GiSandSnake } from "react-icons/gi";
+import { GiSandSnake, GiCook } from "react-icons/gi";
 import ServiceModal from './ServiceModal';
-import SNAKE_IMG from '../../media/img/snake.png'
+import SNAKE_IMG from '../../media/img/snake.png';
+import RECIPIE_IMG from '../../media/img/resepie.png'
 
 
 function ServiseSection() {
@@ -15,17 +16,22 @@ function ServiseSection() {
       modalText: 'I made a simple snake game with the rule that the snake goes faster for exery food it eats',
       img: SNAKE_IMG ,
       icon: <GiSandSnake />,
-      githubLink: 'https://github.com/lusweek/SnakeGame.git'
+      githubLink: 'https://github.com/lusweek/SnakeGame.git',
     },
+    {
+      title: 'Recipe app', 
+      cardText: 'An app capable of searching for any food from a Recipe API and seing the Recipe for any food. ',
+      modalText: 'This project was made as a school groop project, I made this together with Emma Janson using react. When you open the app you will see our front page design (see picture) witch includes a searchbar, pobular diches, vegie diches and varies categories. Clicking any food takes you to the page wich witch shows you Recipe and instructions.',
+      img: RECIPIE_IMG ,
+      icon: <GiCook />,
+      githubLink: 'https://github.com/emmajanson/RecipeApp.git',
+    },  
+
   
   ]
 
   const [isOpen, setIsOpen] = useState(false)
   const [clickedCard, setClickedCard] = useState(0)
-
-  
-
-
 
   const openModal = (index) => {
 
