@@ -7,25 +7,40 @@ export const ContactUs = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_jutegkq', 'template_06a4wj9', form.current, 'ZGdhs2ZT5cVWZRNGA')
+    emailjs.sendForm('service_jutegkq', 'template_1crk21o', form.current, 'ZGdhs2ZT5cVWZRNGA')
       .then((result) => {
           console.log(result.text);
       }, (error) => {
           console.log(error.text);
       });
 
-      console.log(emailjs.sendForm);
+      console.log(form.current);
   };
 
   return (
-    <form ref={form} onSubmit={sendEmail}>
-      <label>Name</label>
-      <input type="text" name="form_name" />
-      <label>Email</label>
-      <input type="email" name="form_email" />
-      <label>Message</label>
-      <textarea name="message" />
-      <input type="submit" value="Send" />
+    <section className='contact-section'>
+      <h1>Contact me</h1>
+    <form className='form' ref={form} onSubmit={sendEmail}>
+      <div id='form-name-id'>
+        <label className='form-lable'>Name</label>
+        <input className='form-input' type="text" name="user_name" />
+      </div>
+      <div id='form-email-id'>
+        <label className='form-lable'>Email</label>
+        <input className='form-input' type="email" name="user_email" />
+      </div>
+     <div id='form-subject-id'>
+        <label className='form-lable'>Subject</label>
+        <input className='form-input' type="text" name="subject" />
+     </div>
+     <div id='form-message-id'>
+      <label className='form-lable'>Message</label>
+      <textarea className='form-input form-TA' name="message" />
+     </div>
+    
+      <input className='form-btn form-lable' type="submit" value="Send" />
     </form>
+    </section>
+   
   );
 };
