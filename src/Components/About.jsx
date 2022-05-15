@@ -12,7 +12,16 @@ function About() {
         <article>
             <h1>Who is Lukas?</h1>
            
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis minima aut, voluptate minus maxime, vero vitae voluptates nemo numquam illum molestiae doloribus voluptatum, nam dolor eligendi quas? Tempora, porro temporibus.
+            <p>
+
+            Hi, My name is Lukas, I’m a 24 years old student in front-end development.
+{<br></br>}
+{<br></br>} 
+Born in Sweden just outside Gothenburg in the small town Floda, studied for two years to become a firefighter right after the gymnasium at the age of 19. I decided to make a career change at the age of 23. I’m studying at Jensen YH in Gothenburg. I just finished my first year and I have one more to go!
+{<br></br>}
+{<br></br>} 
+Eager to get out in the jungle of web development I’m now searching for work on the side and some workspace that suits my preferences to do my practical education which will be from 2022-11-21 to 23-05-05.
+
               
             </p>
 
