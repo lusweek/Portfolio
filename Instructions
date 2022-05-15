@@ -4,3 +4,17 @@ Simply go to ServiseSection.jsx and add a new object to cards.
 
 Use import to add image
 
+-------------------------------------------
+
+FÖR ATT UPPDATERA HEMSIDAN
+
+pusha upp allt
+
+npm run deploy
+
+
+-----------------------------------------------
+
+uppdatera email-sendern:
+
+https://dashboard.emailjs.com/admin/templates/ubv0rhm

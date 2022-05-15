@@ -570,6 +570,7 @@ object-position: left;
   grid-area: p;
   overflow: auto;
   margin: 20px;
+  font-size: 22px;
 }
 
 .github-link{
@@ -577,6 +578,7 @@ object-position: left;
   align-self: end;
   margin: 0 0 20px 10px;
   line-break: anywhere;
+  font-size: 22px;
 }
 
 

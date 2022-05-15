@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import {AiOutlineClose} from 'react-icons/ai'
 
-function ServiceModal({ isOpen, setIsOpen, img, title, icon, modalText, githubLink }) {
+function ServiceModal({ isOpen, setIsOpen, img, title, icon, modalText, githubLink, linkText }) {
 
     
 
@@ -18,7 +18,7 @@ function ServiceModal({ isOpen, setIsOpen, img, title, icon, modalText, githubLi
             
             <img className='modal-img' src={img} alt="" />
             <p className='modal-p'>{modalText}</p>
-            <p className='github-link'>Link to github: <a target='_blank' href={githubLink}> {githubLink} </a></p>
+            <p className='github-link'>{linkText} <a target='_blank' href={githubLink}> {githubLink} </a></p>
 
 
 

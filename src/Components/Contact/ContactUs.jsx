@@ -7,7 +7,7 @@ export const ContactUs = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_jutegkq', 'template_1crk21o', form.current, 'ZGdhs2ZT5cVWZRNGA')
+    emailjs.sendForm('service_jutegkq', 'template_06a4wj9', form.current, 'ZGdhs2ZT5cVWZRNGA')
       .then((result) => {
           console.log(result.text);
       }, (error) => {
@@ -26,7 +26,7 @@ export const ContactUs = () => {
         <input className='form-input' type="text" name="user_name" />
       </div>
       <div id='form-email-id'>
-        <label className='form-lable'>Email</label>
+        <label className='form-lable'>Your email</label>
         <input className='form-input' type="email" name="user_email" />
       </div>
      <div id='form-subject-id'>
