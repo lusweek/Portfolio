@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.b2318192.css",
+    "main.js": "/Portfolio/static/js/main.7859430a.js",
+    "static/media/swagimg.png": "/Portfolio/static/media/swagimg.16b668534e4cc8d695ee.png",
+    "static/media/resepie.png": "/Portfolio/static/media/resepie.fea584517036c135b8f3.png",
+    "static/media/brakingBad.png": "/Portfolio/static/media/brakingBad.0be2945b5d52607e470b.png",
+    "static/media/solnedg.jpg": "/Portfolio/static/media/solnedg.c66d91599d929c604b77.jpg",
+    "static/media/nerd-info.png": "/Portfolio/static/media/nerd-info.bb90a6c5a36291ce34bd.png",
+    "static/media/_DSC9996.JPG": "/Portfolio/static/media/_DSC9996.1ddebfa236cefae8e7ef.JPG",
+    "static/media/ocean-g7b1afebdb_1280.jpg": "/Portfolio/static/media/ocean-g7b1afebdb_1280.a0be9bf11144e038974f.jpg",
+    "static/media/cv.pdf": "/Portfolio/static/media/cv.32ea56de483833a5fa6d.pdf",
+    "index.html": "/Portfolio/index.html",
+    "main.b2318192.css.map": "/Portfolio/static/css/main.b2318192.css.map",
+    "main.7859430a.js.map": "/Portfolio/static/js/main.7859430a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b2318192.css",
+    "static/js/main.7859430a.js"
+  ]
+}
