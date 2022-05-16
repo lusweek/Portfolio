@@ -78,11 +78,6 @@ function ServiseSection() {
     setIsOpen(true)
   }
 
-  useEffect(() => {
-    console.log(clickedCard);
-  }, [clickedCard])
-
-
   return (
     <>
         <h1 id='service-title' className='large-title'>Projects</h1>
