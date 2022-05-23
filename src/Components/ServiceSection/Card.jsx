@@ -9,7 +9,7 @@ function Card({ icon, title, cardText, setIsOpen }) {
             <h2>{title}</h2>
             <h2>{icon}</h2>
         </div>
-        <p>{cardText}</p>
+        <h4 className='card-text'>{cardText}</h4>
     </article>
   )
 }

@@ -102,7 +102,7 @@ export const ContactUs = () => {
 
     <MessageSent text={text} success={success} />
 
-    <section className='contact-section'>
+    <section id='contact-section-id' className='contact-section'>
       <h1>Contact me</h1>
     <form className='form' ref={form} onSubmit={sendEmail}>
       <div id='form-name-id'>
