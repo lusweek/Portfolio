@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.3dbb141a.css",
-    "main.js": "/Portfolio/static/js/main.d1dc629c.js",
+    "main.css": "/Portfolio/static/css/main.06f659df.css",
+    "main.js": "/Portfolio/static/js/main.05f899ab.js",
     "static/media/swagimg.png": "/Portfolio/static/media/swagimg.16b668534e4cc8d695ee.png",
     "static/media/resepie.png": "/Portfolio/static/media/resepie.fea584517036c135b8f3.png",
     "static/media/brakingBad.png": "/Portfolio/static/media/brakingBad.0be2945b5d52607e470b.png",
     "static/media/profile.png": "/Portfolio/static/media/profile.a41892414e947b2622d4.png",
     "static/media/solnedg.jpg": "/Portfolio/static/media/solnedg.c66d91599d929c604b77.jpg",
     "static/media/nerd-info.png": "/Portfolio/static/media/nerd-info.bb90a6c5a36291ce34bd.png",
+    "static/media/pwaApp.png": "/Portfolio/static/media/pwaApp.a499b292c1e9612fadb1.png",
     "static/media/ocean-g7b1afebdb_1280.jpg": "/Portfolio/static/media/ocean-g7b1afebdb_1280.a0be9bf11144e038974f.jpg",
     "static/media/cv.pdf": "/Portfolio/static/media/cv.32ea56de483833a5fa6d.pdf",
     "index.html": "/Portfolio/index.html",
-    "main.3dbb141a.css.map": "/Portfolio/static/css/main.3dbb141a.css.map",
-    "main.d1dc629c.js.map": "/Portfolio/static/js/main.d1dc629c.js.map"
+    "main.06f659df.css.map": "/Portfolio/static/css/main.06f659df.css.map",
+    "main.05f899ab.js.map": "/Portfolio/static/js/main.05f899ab.js.map"
   },
   "entrypoints": [
-    "static/css/main.3dbb141a.css",
-    "static/js/main.d1dc629c.js"
+    "static/css/main.06f659df.css",
+    "static/js/main.05f899ab.js"
   ]
 }
