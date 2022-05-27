@@ -67,7 +67,7 @@ function ServiseSection() {
     {
       title: "First PWA app", 
       cardText: `My very first PWA / Progressive web application.`,
-      modalText: `A PWA is an insatiable web application, this one is about taking a picture and saving it in local storage. Try install it on your phone! Works on both iphone and android.`,
+      modalText: `A PWA is an insatiable web application, this one is about taking a picture and saving it in local storage. Video is a bit off unfortunately.`,
       img: BRÖLLOPSFOTOGRAFEN_IMG,
       icon: <SiPwa />,
       githubLink: 'https://lusweek.github.io/Br-llopsFotografen-JS/',
