@@ -70,7 +70,7 @@ function ServiseSection() {
       modalText: `A PWA is an insatiable web application, this one is about taking a picture and saving it in local storage. Video is a bit off unfortunately.`,
       img: BRÖLLOPSFOTOGRAFEN_IMG,
       icon: <SiPwa />,
-      githubLink: 'https://lusweek.github.io/Br-llopsFotografen-JS/',
+      githubLink: 'https://brollopsappen.surge.sh/',
       linkText: 'link to webpage:',
 
     },  
