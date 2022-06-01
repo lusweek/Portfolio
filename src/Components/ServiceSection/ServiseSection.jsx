@@ -9,7 +9,7 @@ import RECIPIE_IMG from '../../media/img/resepie.png'
 import SWAG_IMG from '../../media/img/swagimg.png'
 import BRAKING_BAD_IMG from '../../media/img/brakingBad.png'
 import NERD_INFO_IMG from '../../media/img/nerd-info.png'
-import BRÖLLOPSFOTOGRAFEN_IMG from '../../media/img/pwaApp.png'
+import BRÖLLOPSFOTOGRAFEN_IMG from '../../media/img/pwaApp.webp'
  
 function ServiseSection() {
 
