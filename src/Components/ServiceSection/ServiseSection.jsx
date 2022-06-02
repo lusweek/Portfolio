@@ -18,7 +18,7 @@ function ServiseSection() {
   const cards = [
     {
       title: 'Snake Game',
-      cardText: `I created the snake game with simple javaScript and a grid.`,
+      cardText: 'I created\nthe snake game with simple javaScript and a grid.',
       modalText: `I made a simple snake game with the rule that the snake goes faster for exery food it eats`,
       img: SNAKE_IMG ,
       icon: <GiSandSnake />,
@@ -67,7 +67,7 @@ function ServiseSection() {
     {
       title: "First PWA app", 
       cardText: `My very first PWA / Progressive web application.`,
-      modalText: `A PWA is an insatiable web application, this one is about taking a picture and saving it in local storage. Video is a bit off unfortunately.`,
+      modalText: `A PWA is an insatiable web application, this one is about taking a picture and saving it in local storage. Photos are not high quality unfortunately.`,
       img: BRÖLLOPSFOTOGRAFEN_IMG,
       icon: <SiPwa />,
       githubLink: 'https://brollopsappen.surge.sh/',
