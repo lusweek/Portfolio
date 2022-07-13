@@ -3,6 +3,7 @@ import Card from './Card'
 import { GiSandSnake, GiCook, GiMuscleUp } from "react-icons/gi";
 import { MdMovieFilter } from "react-icons/md"
 import { SiStarship, SiPwa } from "react-icons/si"
+import { CgWebsite } from "react-icons/cg"
 import ServiceModal from './ServiceModal';
 import SNAKE_IMG from '../../media/img/snake.png';
 import RECIPIE_IMG from '../../media/img/resepie.png'
@@ -71,6 +72,16 @@ function ServiseSection() {
       img: BRÖLLOPSFOTOGRAFEN_IMG,
       icon: <SiPwa />,
       githubLink: 'https://brollopsappen.surge.sh/',
+      linkText: 'link to webpage:',
+
+    },  
+    {
+      title: "Adrians webpage", 
+      cardText: `A one page website, designed it myself using figma.`,
+      modalText: `A one page website for a friend. Built in react, designed it myself using figma.`,
+      img: null,
+      icon: <CgWebsite />,
+      githubLink: 'https://lusweek.github.io/Adrians-hemsida/',
       linkText: 'link to webpage:',
 
     },  
