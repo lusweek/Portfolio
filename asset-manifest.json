@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.06f659df.css",
-    "main.js": "/Portfolio/static/js/main.8b4b4c56.js",
+    "main.js": "/Portfolio/static/js/main.6a92dfd1.js",
     "static/media/swagimg.png": "/Portfolio/static/media/swagimg.16b668534e4cc8d695ee.png",
     "static/media/resepie.png": "/Portfolio/static/media/resepie.fea584517036c135b8f3.png",
     "static/media/brakingBad.png": "/Portfolio/static/media/brakingBad.0be2945b5d52607e470b.png",
@@ -14,10 +14,10 @@
     "static/media/pwaApp.webp": "/Portfolio/static/media/pwaApp.84a758d37162def0d402.webp",
     "index.html": "/Portfolio/index.html",
     "main.06f659df.css.map": "/Portfolio/static/css/main.06f659df.css.map",
-    "main.8b4b4c56.js.map": "/Portfolio/static/js/main.8b4b4c56.js.map"
+    "main.6a92dfd1.js.map": "/Portfolio/static/js/main.6a92dfd1.js.map"
   },
   "entrypoints": [
     "static/css/main.06f659df.css",
-    "static/js/main.8b4b4c56.js"
+    "static/js/main.6a92dfd1.js"
   ]
 }
