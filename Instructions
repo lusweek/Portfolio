@@ -10,6 +10,8 @@ FÖR ATT UPPDATERA HEMSIDAN
 
 pusha upp allt
 
+npm run build
+
 npm run deploy
 
 

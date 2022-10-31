@@ -3,7 +3,7 @@ import Card from './Card'
 import { GiSandSnake, GiCook, GiMuscleUp } from "react-icons/gi";
 import { MdMovieFilter } from "react-icons/md"
 import { SiStarship, SiPwa } from "react-icons/si"
-import { CgWebsite } from "react-icons/cg"
+import { CgWebsite, CgGym } from "react-icons/cg"
 import ServiceModal from './ServiceModal';
 import SNAKE_IMG from '../../media/img/snake.png';
 import RECIPIE_IMG from '../../media/img/resepie.png'
@@ -12,13 +12,24 @@ import BRAKING_BAD_IMG from '../../media/img/brakingBad.png'
 import NERD_INFO_IMG from '../../media/img/nerd-info.png'
 import BRÖLLOPSFOTOGRAFEN_IMG from '../../media/img/pwaApp.webp'
 import ADRIAN_WEBPAGE_IMG from '../../media/img/adrian.png'
- 
+import GYM_IMG from '../../media/img/GYM.png'
+
 function ServiseSection() {
 
 
   // ADD NEW OBJECT HERE
   // Förra hetter cards
   const skolProjekt = [
+    {
+      title: 'Gym website', 
+      cardText: `The biggest school project so far, a realistic website for a gym`,
+      modalText: `School projekt including me and 5 other students. I did most of the work on the booking page, admin page and the personal page.`,
+      img: GYM_IMG ,
+      icon: <CgGym />,
+      githubLink: 'https://github.com/lusweek/Gym---spolprojekt',
+      linkText: 'link to github:',
+
+    }, 
     {
       title: 'Recipe app', 
       cardText: `An app capable of searching for any food from a Recipe API and seing the Recipe for any food. `,
@@ -112,7 +123,7 @@ function ServiseSection() {
 
   return (
     <>
-        <h1 id='service-title' className='large-title'>Sidoprojekt</h1>
+        <h1 id='service-title' className='large-title'>Done on my own</h1>
     <section id='service-section'>
 
       {egnaProjekt.map((card, index) =>  {
@@ -141,7 +152,7 @@ function ServiseSection() {
     </section>
 
 
-    <h1 id='service-title' className='large-title'>Sidoprojekt</h1>
+    <h1 id='service-title' className='large-title'>School projects</h1>
     <section id='service-section'>
 
     {skolProjekt.map((card, index) =>  {
