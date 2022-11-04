@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.54d71af3.css",
-    "main.js": "/Portfolio/static/js/main.49022833.js",
+    "main.js": "/Portfolio/static/js/main.c892b573.js",
     "static/media/swagimg.png": "/Portfolio/static/media/swagimg.16b668534e4cc8d695ee.png",
     "static/media/GYM.png": "/Portfolio/static/media/GYM.fa292f1552f801afe5cc.png",
     "static/media/resepie.png": "/Portfolio/static/media/resepie.fea584517036c135b8f3.png",
@@ -13,12 +13,13 @@
     "static/media/ocean-g7b1afebdb_1280.jpg": "/Portfolio/static/media/ocean-g7b1afebdb_1280.a0be9bf11144e038974f.jpg",
     "static/media/cv.pdf": "/Portfolio/static/media/cv.32ea56de483833a5fa6d.pdf",
     "static/media/pwaApp.webp": "/Portfolio/static/media/pwaApp.84a758d37162def0d402.webp",
+    "static/media/Accessibility-app.png": "/Portfolio/static/media/Accessibility-app.504ef64f4a10b1470576.png",
     "index.html": "/Portfolio/index.html",
     "main.54d71af3.css.map": "/Portfolio/static/css/main.54d71af3.css.map",
-    "main.49022833.js.map": "/Portfolio/static/js/main.49022833.js.map"
+    "main.c892b573.js.map": "/Portfolio/static/js/main.c892b573.js.map"
   },
   "entrypoints": [
     "static/css/main.54d71af3.css",
-    "static/js/main.49022833.js"
+    "static/js/main.c892b573.js"
   ]
 }
