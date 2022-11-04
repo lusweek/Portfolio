@@ -4,6 +4,7 @@ import { GiSandSnake, GiCook, GiMuscleUp } from "react-icons/gi";
 import { MdMovieFilter } from "react-icons/md"
 import { SiStarship, SiPwa } from "react-icons/si"
 import { CgWebsite, CgGym } from "react-icons/cg"
+import {FaUniversalAccess} from 'react-icons/fa'
 import ServiceModal from './ServiceModal';
 import SNAKE_IMG from '../../media/img/snake.png';
 import RECIPIE_IMG from '../../media/img/resepie.png'
@@ -13,6 +14,7 @@ import NERD_INFO_IMG from '../../media/img/nerd-info.png'
 import BRÖLLOPSFOTOGRAFEN_IMG from '../../media/img/pwaApp.webp'
 import ADRIAN_WEBPAGE_IMG from '../../media/img/adrian.png'
 import GYM_IMG from '../../media/img/GYM.png'
+import ACCESIBILLITY from '../../media/img/Accessibility-app.png'
 
 function ServiseSection() {
 
@@ -58,6 +60,16 @@ function ServiseSection() {
       img: BRÖLLOPSFOTOGRAFEN_IMG,
       icon: <SiPwa />,
       githubLink: 'https://brollopsappen.surge.sh/',
+      linkText: 'link to webpage:',
+
+    },  
+    {
+      title: "Accessible todo app", 
+      cardText: `A simple todo app with focus on accessibility.`,
+      modalText: `Easy to navigate with only tab, clear contrast design, appropriate sizees and clear signals to the user. `,
+      img: ACCESIBILLITY,
+      icon: <FaUniversalAccess />,
+      githubLink: 'https://todo-accessibility-app.pages.dev/',
       linkText: 'link to webpage:',
 
     },  
