@@ -82,7 +82,7 @@ function ServiseSection() {
     {
       title: "SWAG's webpage 2.0", 
       cardText: `SWAG's new website, built with Svelte / SvelteKit`,
-      modalText: ``,
+      modalText: `This webpage contains information about SWAG, events they organize and the courses they offer. When logged in as admin, it's possible to see the memberlist and to create event.`,
       img: SWAG20,
       icon: <GiMuscleUp />,
       githubLink: 'swaggbg.se',
