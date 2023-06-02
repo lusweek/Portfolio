@@ -12,6 +12,7 @@ import SWAG_IMG from '../../media/img/swagimg.png'
 import BRAKING_BAD_IMG from '../../media/img/brakingBad.png'
 import NERD_INFO_IMG from '../../media/img/nerd-info.png'
 import BRÖLLOPSFOTOGRAFEN_IMG from '../../media/img/pwaApp.webp'
+import SWAG20 from '../../media/img/swag2.0.png'
 import ADRIAN_WEBPAGE_IMG from '../../media/img/adrian.png'
 import GYM_IMG from '../../media/img/GYM.png'
 import ACCESIBILLITY from '../../media/img/Accessibility-app.png'
@@ -78,6 +79,15 @@ function ServiseSection() {
 
 
   const egnaProjekt = [
+    {
+      title: "SWAG's webpage 2.0", 
+      cardText: `SWAG's new website, built with Svelte / SvelteKit`,
+      modalText: ``,
+      img: SWAG20,
+      icon: <GiMuscleUp />,
+      githubLink: 'swaggbg.se',
+      linkText: 'link to webpage:',
+    },  
     {
       title: "Adrians webpage", 
       cardText: `A one page website I build for my friend who is a personal trainer`,
