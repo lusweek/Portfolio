@@ -99,7 +99,7 @@ function ServiseSection() {
     },  
     {
       title: "SWAG's webpage", 
-      cardText: `This is the first project I ever did on my own. SWAG's website`,
+      cardText: `This is the first project I ever did on my own. SWAG's first website`,
       modalText: `I started working on this project after studying front-end for about 3 months, I was so eager to use the things I learned and to get started. There has bin many times I'v bin thinking of redo this project, the code is very messy and I would create it in a whole new way if I redo it. But still, it was very fun to play around with this project and I learned a lot building it.`,
       img: SWAG_IMG ,
       icon: <GiMuscleUp />,

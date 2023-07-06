@@ -24,7 +24,7 @@ function Footer() {
 
         <div className='info-div'>
             <a href="tel:+46738546407">Phone: +46 738 546 407</a>
-            <a href="mailto:HagbergDevelopment@gmail.com" >Email: HagbergDevelopment@gmail.com</a>
+            <a href="mailto:lukash@live.se" >Email: lukash@live.se</a>
             
         </div>
        
