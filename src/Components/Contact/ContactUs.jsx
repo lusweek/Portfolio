@@ -13,6 +13,7 @@ export const ContactUs = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
+    console.log('form.current', form.current)
     openLoader()
 
 
@@ -102,7 +103,7 @@ export const ContactUs = () => {
 
     <MessageSent text={text} success={success} />
 
-    <section id='contact-section-id' className='contact-section'>
+    {/* <section id='contact-section-id' className='contact-section'>
       <h1>Contact me</h1>
     <form className='form' ref={form} onSubmit={sendEmail}>
       <div id='form-name-id'>
@@ -111,7 +112,7 @@ export const ContactUs = () => {
       </div>
       <div id='form-email-id'>
         <label className='form-lable'>Your email</label>
-        <input id='form-input-email-id' className='form-input' type="email" name="user_email" required />
+        <input id='form-input-email-id' className='form-input' type="email" name="to_email" required />
       </div>
      <div id='form-subject-id'>
         <label className='form-lable'>Subject</label>
@@ -124,7 +125,8 @@ export const ContactUs = () => {
     
       <input className='form-btn form-lable' type="submit" value="Send" />
     </form>
-    </section>
+    </section> */}
+
     </>
   );
 };
