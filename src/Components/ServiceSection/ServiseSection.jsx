@@ -85,7 +85,7 @@ function ServiseSection() {
       modalText: `This webpage contains information about SWAG, events they organize and the courses they offer. When logged in as admin, it's possible to see the memberlist and to create event.`,
       img: SWAG20,
       icon: <GiMuscleUp />,
-      githubLink: 'swaggbg.se',
+      githubLink: 'https://swaggbg.se',
       linkText: 'link to webpage:',
     },  
     {
@@ -107,15 +107,6 @@ function ServiseSection() {
       linkText: 'link to webpage:'
     },  
     {
-      title: "Braking Bad API", 
-      cardText: `An app using fetch, advanced css and a search function`,
-      modalText: `This simple API app uses the fetch function to get all the characters from the Braking Bad series and then using .map to create a card for every character. Hovering over any card flips the card and shows some info bout that character. It was realy fun to learn how to create this flipping thing using css. There is a search feald you can use to search for any character you want.`,
-      img: BRAKING_BAD_IMG,
-      icon: <MdMovieFilter />,
-      githubLink: 'https://github.com/lusweek/Braking-bad-API.git',
-      linkText: 'link to github:',
-    },  
-    {
       title: 'Snake Game',
       cardText: 'I created\nthe snake game with simple javaScript and a grid.',
       modalText: `I made a simple snake game with the rule that the snake goes faster for exery food it eats`,
@@ -124,6 +115,15 @@ function ServiseSection() {
       githubLink: 'https://snake-3i5.pages.dev/',
       linkText: 'Try it ouy here!',
     },
+    {
+      title: "Braking Bad API", 
+      cardText: `An app using fetch, advanced css and a search function`,
+      modalText: `This simple API app uses the fetch function to get all the characters from the Braking Bad series and then using .map to create a card for every character. Hovering over any card flips the card and shows some info bout that character. It was realy fun to learn how to create this flipping thing using css. There is a search feald you can use to search for any character you want.`,
+      img: BRAKING_BAD_IMG,
+      icon: <MdMovieFilter />,
+      githubLink: 'https://github.com/lusweek/Braking-bad-API.git',
+      linkText: 'link to github:',
+    },  
   ]
 
   const [isOpenSkol, setIsOpenSkol] = useState(false)
@@ -145,7 +145,7 @@ function ServiseSection() {
 
   return (
     <>
-        <h1 id='service-title' className='large-title'>Done on my own</h1>
+        <h1 id='service-title' className='large-title light-text'>Done on my own</h1>
     <section id='service-section'>
 
       {egnaProjekt.map((card, index) =>  {

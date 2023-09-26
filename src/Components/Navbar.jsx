@@ -53,8 +53,8 @@ function Navbar() {
 
   return (
     <nav id='navbar'>
-        <article id='logo'>
-          <h1>Lukas Portfolio</h1>
+        <article id='logo' className='light-text'>
+          <h1 className='service-title'>Lukas Portfolio</h1>
         </article>
         <article id='nav-right-side'>
 
