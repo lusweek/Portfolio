@@ -81,8 +81,8 @@ function ServiseSection() {
   const egnaProjekt = [
     {
       title: "SWAG's webpage 2.0", 
-      cardText: `SWAG's new website, built with Svelte / SvelteKit`,
-      modalText: `This webpage contains information about SWAG, events they organize and the courses they offer. When logged in as admin, it's possible to see the memberlist and to create event.`,
+      cardText: `SWAG's new website, built with SvelteKit, firebase, emailjs and tailwind`,
+      modalText: `This webpage is about the assosiation SWAG. When logged in as admin, it's possible to see the memberlist, create event and use the CMS I have created.`,
       img: SWAG20,
       icon: <GiMuscleUp />,
       githubLink: 'https://swaggbg.se',
